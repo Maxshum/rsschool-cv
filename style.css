@@ -1,0 +1,112 @@
+
+.page{
+    max-width: 1280px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Oswald;
+    background-color: beige;
+    
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 24px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: underline; 
+}
+
+.main{
+    width: 100%; 
+    display: flex;
+    padding-top: 30px; 
+     
+}
+.contact{
+    position: relative;
+    padding: 10px 0 0 0px;
+    font-family: Oswald; 
+    font-size: 20px;
+    
+}
+
+.contactlist_element{
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+.contactlist_element:last-child{
+    margin-bottom: 0;
+}
+.pade-title{
+    text-align: center;
+}
+
+.contactlist{
+    padding-left: 0;
+}
+.aside{
+    width: 30%;
+}
+.right-side{
+    width: 70%;
+}
+.name{
+    margin: 0;
+    font-size: 40px;
+}
+.photo{
+    object-fit: cover;
+
+}
+.univer_education{
+    padding-left: 0;
+    list-style: none;
+    font-size: 20px;
+}
+.about_me{
+    padding-left: 60px;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.skills{
+    padding-left: 60px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.key_strengths{
+    padding-left: 60px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.code{
+    padding-left: 60px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.project{
+    color: black;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    font-size: 15px;
+}
+.footer_year{
+    justify-self: center;
+}
+.footer_rsschool{
+    justify-self: end;
+}
